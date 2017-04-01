@@ -1,0 +1,28 @@
+/*去除边距*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    position: relative;
+}
+
+.box {
+    /*图片之间的间隔10px*/
+    padding: 5px;
+    /*左浮动*/
+    float: left;
+}
+
+.box_img {
+    padding: 5px;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 0 5px #CCC;
+    border-radius: 5px;
+}
+
+.box_img img {
+    width: 150px;
+    height: auto;
+}
